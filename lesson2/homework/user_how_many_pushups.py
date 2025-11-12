@@ -1,0 +1,1 @@
+user_how_many_pushups = int(input("How many pushups can you do: "))

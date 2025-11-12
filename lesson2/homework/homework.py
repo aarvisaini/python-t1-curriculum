@@ -19,8 +19,9 @@
 # Ask the user how many push-ups they can do.
 # Multiply it by 7 and print how many they could do in a week.
 
+numbers = [0 , 1 , 2, 3 ,4 ,5 , 6, 7 , 8 , 9 , 10]
 
-
-# Homework Problem 5
-# Use a for loop to print the square of each number from 1 to 6.
-# (Example: 1*1=1, 2*2=4, etc.)
+for num in numbers: # pyright: ignore[reportUndefinedVariable]
+    square = num ** 2
+    print(f"The square of {num} is {square}")
+	

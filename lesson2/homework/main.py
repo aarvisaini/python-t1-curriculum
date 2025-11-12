@@ -1,3 +1,4 @@
+
 My_lucky_number = 6
 print(My_lucky_number)
 
@@ -66,3 +67,20 @@ numbers = [1, 2, 3, 4, 5, 6]
 for num in numbers:
     square = num ** 2
     print(f"The square of {num} is {square}")
+	
+user_pushups = int(input("How many pushups can you do: ")) 
+(user_pushups * 7)
+print(f"Aarvi can do {user_pushups * 7} pushups in a week.")
+
+user_num1 = int(input("give me a number1: ")) 
+user_num2 = int(input("give me a number2: ")) 
+Remainder = user_num1 % user_num2
+Quotient =  user_num2 // user_num1
+print(Remainder)
+print(Quotient)
+
+User_animal = (input("What is your favorite animal: "))
+User_color = (input("What is your favorite color: "))
+print("What is your favorite color: ")
+print("What is your favorite animal: ")
+print(f"It would be cool if there was a {User_color}{User_animal}!")
