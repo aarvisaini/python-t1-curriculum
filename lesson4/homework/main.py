@@ -51,8 +51,6 @@ elif user_guess == random_number or random_number == 5:
     print("Nice try!")
 else:
     print("Nope.")
-# For testing purposes, you can uncomment the next line to see the random number.
-print(f"(The random number was: {random_number})")
 
 # Problem 5
 # Ask the user for two numbers.

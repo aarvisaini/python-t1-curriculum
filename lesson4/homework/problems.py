@@ -14,8 +14,7 @@
 
 
 # Problem 3
-# Ask user to enter a number.
-# If the number is NOT between 1 and 10 (inclusive), print "Out of range."
+# Ask user to enter number between 1 and 10 (inclusive),If the number is NOT between 1 and 10 print "Out of range."
 # Otherwise, print "In range."
 
 
