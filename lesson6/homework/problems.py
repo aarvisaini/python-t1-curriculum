@@ -12,7 +12,7 @@ print(animals)
 
 
 
-# Problem 3
+# Plesson9roblem 3
 # Count and print how many scores are 100.
 scores = [95, 100, 88, 100, 77, 92]
 print(scores)
