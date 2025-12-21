@@ -19,9 +19,11 @@ print("Problem 3")
 fruit = "mango"
 print(f"First fruit is: {fruit}")
 def modify_fruit():
+    global fruit
     fruit = "apple"
     print(f"Modified fruit is: {fruit}")
 modify_fruit()
+print(f"Final fruit is: {fruit}")
 
 # Problem 4
 # Write a function that takes two parameters: first_name and last_name.
